@@ -49,6 +49,12 @@
     z-index: 9;
     transition: all linear 0.4s;
   }
+.logo {
+    border-radius: 50%;    /* Makes it circular */
+    width: 80px;         
+    height: 80px;          
+    object-fit: cover;     
+}
   #nav {
     height: 130px;
     width: 100%;
